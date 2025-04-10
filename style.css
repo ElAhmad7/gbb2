@@ -1,0 +1,127 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-tête et navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section principale */
+section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #444;
+}
+
+.produits .produit {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.produits .produit img {
+    width: 100%;
+    height: auto;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Appliquer l'image de fond avec une luminosité réduite */
+/* Style général du body pour toutes les pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style spécifique à la page d’accueil uniquement */
+body.accueil {
+    background-image: url('votre-image-de-fond.jpg'); /* Remplace par ton image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(99%);
+}
+
+.intro {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7); /* Ajouter un léger fond pour la lisibilité du texte */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+.grande-photo img {
+    width: 100%;        /* prend toute la largeur de l'écran */
+    height: auto;       /* conserve les proportions */
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.photo-bottom-right {
+    position: fixed;          /* Elle reste à la même position même si on fait défiler */
+    bottom: 20px;             /* Distance par rapport au bas de la fenêtre */
+    right: 20px;              /* Distance par rapport à la droite */
+    width: 150px;             /* Ajuste la taille comme tu veux */
+    height: auto;
+    z-index: 10;              /* Pour s'assurer qu'elle est au-dessus des autres éléments */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
